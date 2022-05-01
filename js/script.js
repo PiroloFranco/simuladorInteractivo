@@ -1,11 +1,11 @@
-let dogChow = 700;
-let royalCanin = 1500;
-let voraz = 500;
-let pedigree = 1300;
-let oldPrince = 2000;
+let precio = parseFloat(prompt("Ingrese un numero"))
 
-let catChow = 700;
-let whiskas = 1500;
-let vorazCat = 500;
-let royalKitten = 1300;
-let felinnes = 2000;
+if(precio >= 1000) { 
+    console.log("Esto es caro, mejor no lo compro")
+} else if(precio >= 500) {
+    console.log("Esto es medianamente barato, lo compro")
+} else if(precio >= 200) {
+    console.log("Esto si que es barato, lo compro!")
+}else {
+    console.log("No encontre ningun precio bueno, no voy a comprar nada")
+}
