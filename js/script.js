@@ -9,3 +9,18 @@ if(precio >= 1000) {
 }else {
     console.log("No encontre ningun precio bueno, mejor no voy a comprar nada")
 }
+
+let products = [];
+let total = 0;
+
+
+function add(product, price) {
+    console.log(product, price);
+    products.push(product)
+    total = total + price;
+}
+
+function pay(){
+    console.log(product, price);
+    window.alert("su producto se agrego al carro con exito.")
+}
